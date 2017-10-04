@@ -4,13 +4,25 @@
 
 body {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 2em;
+    font-size: 1.8em;
+}
+
+.jumbotron {
+    padding: 10px;
+    height: 220px;
+    background-color: white;
 }
 
 h1.main_header {
-    font-size: 40px;
+    font-size: 36px;
 }
 
+.right {
+    float: right;
+}
+.left {
+    float: left;
+}
 h1, h2, h4 {
     color: darkblue;
     text-transform: uppercase;
