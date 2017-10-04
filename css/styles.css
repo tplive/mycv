@@ -8,11 +8,10 @@ body {
 }
 
 h1.main_header {
-    font-size: 36px;
-    color: purple;
+    font-size: 40px;
 }
 
-h1, h2 {
+h1, h2, h4 {
     color: darkblue;
     text-transform: uppercase;
 }
@@ -20,5 +19,13 @@ h1, h2 {
 h2 {
 
     border-bottom: 2px solid darkslateblue;
+}
+
+.experience {
+    border-bottom: 2px dashed grey;
+
+}
+.experience.summary {
+    margin: 25px;
 }
 
