@@ -33,6 +33,15 @@ h1, h2, h4 {
     text-transform: uppercase;
 }
 
+.indicator {
+    color: darkblue;
+    font-size: 25px;
+    letter-spacing: 8px;
+    line-height: 1px;
+}
+.langlabel {
+    line-height: 1px;
+}
 .progress-bar {
     background-color: darkblue;
 }
