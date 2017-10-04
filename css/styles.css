@@ -39,9 +39,12 @@ h2 {
 }
 
 .experience {
-    border-bottom: 2px dashed grey;
-
+    text-align: left;
 }
+.experience > hr {
+    border-bottom: 2px dashed grey;
+}
+
 .experience.summary {
     margin: 25px;
 }
