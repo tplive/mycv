@@ -33,6 +33,9 @@ h1, h2, h4 {
     text-transform: uppercase;
 }
 
+.progress-bar {
+    background-color: darkblue;
+}
 h2 {
 
     border-bottom: 2px solid darkslateblue;
