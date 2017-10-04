@@ -16,6 +16,10 @@ body {
 h1.main_header {
     font-size: 36px;
 }
+.img-thumb {
+    max-height: 220px;
+    padding-right: 20px;
+}
 
 .right {
     float: right;
