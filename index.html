@@ -36,7 +36,7 @@
           <img height="20%" class="img-circle img-responsive img-thumb" src="img/thomas_qvidahl.jpg"/>
         </a>
       </div>
-      <h1 class="main_header">{{title}}</h1>
+      <h1 class="main_header">Thomas Qvidahl</h1>
       <p><i class="material-icons">date_range</i>17.11.1975</p>
       <h3>Developer at EVRY </h3>
       
@@ -73,6 +73,7 @@
           <span class="badge">Have fun!</span>
         </p>
         <h2>Languages</h2>
+        <div id="language-placeholder"></div>
         <p class="left langlabel">Norwegian</p><p class="right indicator">****o</p><p style="clear: both;"/>
         <p class="left langlabel">English</p><p class="right indicator">****o</p><p style="clear: both;"/>
         <p class="left langlabel">Java</p><p class="right indicator">****o</p><p style="clear: both;"/>
@@ -126,8 +127,10 @@
   </script>
   <script src="js/app.js"></script>
 
-  <script id="experience" type="text/x-handlebars-template">
-    {{#experience}}
+
+  // Handlebar templates
+  <script id="experiences" type="text/x-handlebars-template">
+    {{#experiences}}
     <div class="experience">
       <h3>{{title}}</h3>
       <h4>{{employer}}</h4>
@@ -138,7 +141,16 @@
       </p>
       <hr>
     </div>
-    {{/experience}}   
+    {{/experiences}}   
+  </script>
+
+  <script id="language-template" type="text/x-handlebars-template">
+    {{#languages}}
+    <div class="progress">
+      <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="{{proficiency}}" aria-valuemax="100" aria-valuemin="0" style="width:{{proficiency}}%">{{language}} {{proficiency}}</div>
+    </div>
+    <p class="left langlabel">{{language}}</p><p class="right indicator">****o</p><p style="clear: both;"/>
+    {{/languages}}
   </script>
   
 </body>

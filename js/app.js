@@ -1,9 +1,7 @@
-var title = "Thomas Qvidahl";
 
 $(function() {
-    var source = $("#experience").html();
-    var template = Handlebars.compile(source);
-    var data = { experience : [
+    // The data in JSON format
+    var data = { experiences : [
         {
             title : "Developer, Senior Consultant",
             employer : "EVRY Card Services AS",
@@ -24,9 +22,42 @@ $(function() {
             period : "Spring semester of 2009, 2011, 2013, 2014, 2015",
             location : "Mo i Rana, Norway",
             summary : "<ul><li>Hired to teach \"Operating Systems - Configuration and Use\" at Community College.</li><li>Mainly focusing on virtualization, networking Windows Server operating systems and interoperability with Linux in heterogeneous environments.</li><li>Received great feedback from students, as a committed, competent and ambitious teacher.</li><li>Adviced several students on career choice, and many have been employed as per my advice.</li></ul>"
-        },
+        }
     ]};
 
+    var lang = { languages : [
+        {
+            language : "Norwegian",
+            proficiency : 99
+        },
+        {
+            language : "English",
+            proficiency : 98
+        },
+        {
+            language: "Java",
+            proficiency : 70
+        },
+        {
+            language : "HTML",
+            proficiency : 90
+        },
+        {
+            language : "Javascript",
+            proficiency : 40
+        },
+        {
+            language : "C#",
+            proficiency : 30
+        }
+    ]};
+    
+    // Wiring the templates to data
+    var source = $("#experiences").html();
+    var template = Handlebars.compile(source);
     $("#experience-placeholder").html(template(data));
 
+    var languagesource = $("#language-template").html();
+    var langtemp = Handlebars.compile(languagesource);
+    $("#language-placeholder").html(langtemp(lang));
 });
