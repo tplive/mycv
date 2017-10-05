@@ -7,7 +7,7 @@ $(function() {
             employer : "EVRY Card Services AS",
             period : "Nov 2012 - Present",
             location : "Mo i Rana, Norway",
-            summary : "<ul><li>I was hired as a DBA, and worked extensively with SQL and other Microsoft technologies.</li><li>Consulted on ITIL processes and DevOps approach as tools for effective software development and IT operations.</li><li>Studying at Nord university, I took a class on Android mobile development and that ignited a spark in me! When the opportunity arose, I took a chance on moving to software development, working full time in the Technology and Innovation department with an app prototype for our clients.</li></ul>"
+            summary : "<ul><li>I was hired as a DBA, and worked extensively with SQL and other Microsoft technologies.</li><li>Consulted on ITIL processes and DevOps approach as tools for effective software development and IT operations.</li><li>Studying at Nord university, I took a class on Android mobile development. I was already falling in love with Java, and sparks flew! When the opportunity arose, I took the chance - moving to software development full-time! I'm currently working in the Technology and Innovation department on a native Android app prototype for our clients.</li></ul>"
         },
         {
             title : "Senior Consultant",
