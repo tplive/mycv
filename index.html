@@ -54,16 +54,19 @@
       <div class="col-md-8">
           <h2>Experience</h2>
           <div id="experience-placeholder"></div>
-        <h2>A Day of My Life</h2>
-        <p>A summary of a day, maybe a chart.</p>
+        <h2>Milestones</h2>
+        <p>2012: Microsoft Certified Trainer</p>
+        <p>2005: I'm a father!</p>
+        <p>2002: Built first business web application.</p>
+        <p>2001: Built first dynamic weblog. Mobile solution for traveling Europe.</p>
+        <p>1998: Built my first static website.</p>
+        <p>1997: First MCP certification.</p>
+        <p>1995: Got first IT job.</p>
+        <p>1986: Mum bought first PC. Yes.</p>
       </div>
       <div class="col-md-4">
         <h2>My motto</h2>
         <p><i>Whatever you are, be a good one!</i> - Abraham Lincoln</p>
-        <h2>Achievements in Life</h2>
-        <p>Father</p>
-        <p>Husband</p>
-        <p>Work</p>
         <h2>My superpowers</h2>
         <p>
           <span class="badge">Credible</span>
@@ -74,39 +77,18 @@
         </p>
         <h2>Languages</h2>
         <div id="language-placeholder"></div>
-        <p class="left langlabel">Norwegian</p><p class="right indicator">****o</p><p style="clear: both;"/>
-        <p class="left langlabel">English</p><p class="right indicator">****o</p><p style="clear: both;"/>
-        <p class="left langlabel">Java</p><p class="right indicator">****o</p><p style="clear: both;"/>
-        <p class="left langlabel">C#</p><p class="right indicator">****o</p><p style="clear: both;"/>
-        <p class="left langlabel">Javascript</p><p class="right indicator">****o</p><p style="clear: both;"/>
-        <p class="left langlabel">HTML</p><p class="right indicator">****o</p><p style="clear: both;"/>
-        
-        
-        <div class="progress">
-          <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="99" aria-valuemax="100" aria-valuemin="0" style="width:99%">Norwegian 99% (Fluent)</div>
-        </div>
-          <div class="progress">
-          <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="98" aria-valuemax="100" aria-valuemin="0" style="width:98%">English 98% (Fluent)</div>
-        </div>
-          <div class="progress">
-          <div class="progress-bar progress-bar-info" role="progressbar" aria-valuenow="60" aria-valuemax="100" aria-valuemin="0" style="width:60%">Java 60% (Proficient)</div>
-        </div>
-        <div class="progress">  
-          <div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="30" aria-valuemax="100" aria-valuemin="0" style="width:30%">C# 30% (Beginning)</div>
-        </div>
-        <div class="progress">  
-          <div class="progress-bar progress-bar-info" role="progressbar" aria-valuenow="40" aria-valuemax="100" aria-valuemin="0" style="width:40%">Javascript 40% (Interm.)</div>
-        </div>
-        <div class="progress">  
-          <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="90" aria-valuemax="100" aria-valuemin="0" style="width:90%">HTML 90% (Fluent)</div>
-        </div>
         <h2>Frameworks</h2>
         <p>Android, Node.js, Express.js, Bootstrap, CSS, jQuery, Spring, Xamarin</p>
         <h2>Certificates</h2>
         <p>Car, Motorcycle, Trailer, Scooter, Tractor</p>
         <p>NAUI Scuba Diver</p>
         <h2>Education</h2>
-        <p>VGS, University, Microsoft, ITIL</p>
+        <ul>
+          <li>Bachelor Information Systems, Nord University</li>
+          <li>ITIL Foundation</li>
+          <li><a href="/static/ms-transcript-tq-2014.pdf">Microsoft Certifications Transcript</a></li>
+          <li>Vocational School, Computer Technology, Stjørdal VGS</li>
+        </ul>
         <h2>Hobbies and other interests</h2>
         <p>Squash, Technology, Geocaching</p>
         <h2>Voluntary work</h2>
@@ -115,8 +97,10 @@
     </div>
   </div>
 
-  <footer>
-    <p>2017 Thomas Qvidahl</p>
+  <footer class="footer">
+    <div class="container">
+      <span class="text-muted">2017 Thomas Qvidahl</span>
+    </div>
   </footer>
 
   <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
@@ -149,7 +133,6 @@
     <div class="progress">
       <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="{{proficiency}}" aria-valuemax="100" aria-valuemin="0" style="width:{{proficiency}}%">{{language}} {{proficiency}}%</div>
     </div>
-    <p class="left langlabel">{{language}}</p><p class="right indicator">****o</p><p style="clear: both;"/>
     {{/languages}}
   </script>
   

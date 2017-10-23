@@ -46,7 +46,6 @@ h1, h2, h4 {
     background-color: darkblue;
 }
 h2 {
-
     border-bottom: 2px solid darkslateblue;
 }
 
@@ -61,3 +60,8 @@ h2 {
     margin: 25px;
 }
 
+.footer {
+    height: 60px;
+    background: rgb(245, 245, 245);
+    text-align: center;
+}

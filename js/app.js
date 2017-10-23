@@ -7,7 +7,7 @@ $(function() {
             employer : "EVRY Card Services AS",
             period : "Nov 2012 - Present",
             location : "Mo i Rana, Norway",
-            summary : "<ul><li>I was hired as a DBA, and worked extensively with SQL and other Microsoft technologies.</li><li>Consulted on ITIL processes and DevOps approach as tools for effective software development and IT operations.</li><li>Studying at Nord university, I took a class on Android mobile development. I was already falling in love with Java, and sparks flew! When the opportunity arose, I took the chance - moving to software development full-time! I'm currently working in the Technology and Innovation department on a native Android app prototype for our clients.</li></ul>"
+            summary : "<ul><li>I was hired as a DBA, and worked extensively with SQL and other Microsoft technologies.</li><li>Consulted on ITIL processes and DevOps approach as tools for effective software development and IT operations.</li><li>Studying at Nord university, I took a class on Android mobile development. I was already falling in love with Java, and sparks flew! When the opportunity arose, I took the chance - moving to software development full-time! I'm currently working in the Technology and Innovation department on a native Android app prototype for our clients.</li><li>Experience with Java; Android SDK and Spring. Javascript; Node.js / Express and client-side with jQuery.</li><li>I practice what I preach; agile development and modern development.</li></ul>"
         },
         {
             title : "Senior Consultant",
@@ -28,7 +28,7 @@ $(function() {
             employer : "Telenor",
             period : "September 1995 - October 2002",
             location : "Trondheim, Norway",
-            summary : "<ul><li>Started my IT-career after finishing vocational school (Computer technology, Stjørdal VGS).</li><li>I worked as a service technician with PC / Server / Storage / Network support.</li><li>In 1999 I joined the internal IT Operations department, responsible for keeping all of Telenor's server infrastructure running.</li><li>I was sponsored Microsoft MCSE certification by my employer</li></ul>"
+            summary : "<ul><li>Started my IT-career after finishing vocational school (Computer technology, Stjørdal VGS).</li><li>I worked as a service technician with PC / Server / Storage / Network support.</li><li>In 1999 I joined the internal IT Operations department, responsible for keeping all of Telenor's server infrastructure running.</li><li>I was sponsored Microsoft MCSE and other technical certifications by my employer</li></ul>"
         }
     ]};
 
@@ -56,6 +56,10 @@ $(function() {
         {
             language : "C#",
             proficiency : 30
+        },
+        {
+            language : "PowerShell",
+            proficiency : 95
         }
     ]};
     
