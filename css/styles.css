@@ -1,3 +1,23 @@
+@media print {
+
+    a[href]:after {
+        content: "" !important;
+    }
+
+    @page {
+        size: A4;
+        margin: 10mm;
+    }
+
+    html, body {
+        width: 1024px;
+    }
+
+    body {
+        margin: 0 auto;
+    }
+}
+
 .material-icons {
     font-size: 18px;
 }
