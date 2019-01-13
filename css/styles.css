@@ -67,12 +67,12 @@ h1.main_header {
     float: left;
 }
 h1, h2, h4 {
-    color: darkblue;
+    color: #08085B;
     text-transform: uppercase;
 }
 
 .indicator {
-    color: darkblue;
+    color: #08085B;
     font-size: 25px;
     letter-spacing: 8px;
     line-height: 1px;
@@ -81,7 +81,7 @@ h1, h2, h4 {
     line-height: 1px;
 }
 .progress-bar {
-    background-color: darkblue;
+    background-color: #08085B;
 }
 h2 {
     border-bottom: 2px solid darkslateblue;
